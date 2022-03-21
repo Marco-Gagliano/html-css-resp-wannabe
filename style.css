@@ -5,14 +5,12 @@
   margin-top: 100px;
 }
 
-@media screen and (max-width:479px) {
+@media screen and (max-width:419px) {
   
   .row {
     margin-top: 0;
   }
 }
-
-
 
 
 /* BLOCCO LEZIONI */
@@ -22,15 +20,14 @@
   float: left;
 }
 
-@media screen and (max-width:479px) {
+@media screen and (max-width:419px) {
   
   #lezioni .row>.left, 
   #lezioni .row>.right, 
   #lezioni h1 {
     width: 100%;
     margin: 0;
-    background-color: #F2F2CD;
-    font-size: 30px;
+    font-size: 28px;
     padding-bottom: 20px;
   }
 }
@@ -42,23 +39,22 @@
   margin-left: auto;
 }
 
-@media screen and (max-width:479px) {
+@media screen and (max-width:419px) {
 
   #lezioni .row img {
     padding-top: 30px;
-    
   }
 }
-
-
-
 
 #lezioni {
   text-align: center;
 }
 
+@media screen and (max-width:419px) {
 
-@media screen and (max-width:479px) {
+  #lezioni .row{
+    background-color: #F2F2CD;
+  }
 
   #lezioni h1 {
     padding-top: 30px;
@@ -78,14 +74,15 @@
   width: 33%;
 }
 
-@media screen and (max-width:479px) {
+@media screen and (max-width:419px) {
 
   #steps .row>.left,
   #steps .row>.central,
-  #steps .row>.right {
+  #steps .row>.right,
+  #steps h1 {
     width: 100%;
-    font-size: 30px;
-    background-color: #FFFFFF;
+    font-size: 28px;
+    padding-bottom: 10px;
   }
 }
 
@@ -93,13 +90,16 @@
   text-align: center;
 }
 
-@media screen and (max-width:479px) {
+@media screen and (max-width:419px) {
+
+  #steps .row {
+    background-color: #FFFFFF;
+  }
 
   #steps h1 {
     padding-top: 30px;
     font-size: 50px;
     margin: 0;
-    background-color: #FFFFFF;
   }
 
   #steps h3 {
@@ -116,6 +116,30 @@
   text-align: center;
 }
 
+@media screen and (max-width:419px) {
+
+  #why .row {
+    background-color: #F2F2CD;
+  }
+
+  #why h1 {
+    padding-top: 30px;
+    font-size: 50px;
+    margin: 0;
+  }
+
+  #why h3 {
+    margin: 0;
+  }
+
+  #why hr {
+    margin: 0 25px;
+    background-color: #5A5A5A;
+    
+  }
+}
+
+
 #why .row>.first,
 #why .row>.second,
 #why .row>.third {
@@ -123,11 +147,32 @@
   margin-top: 80px;
 }
 
+@media screen and (max-width:419px) {
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin: 0;
+    font-size: 28px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+}
+
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
 }
+
+@media screen and (max-width:419px) {
+
+  #why .row img {
+    padding-top: 20px;
+  }
+}
+
+
 
 /* COMMON */
 .row::after {
