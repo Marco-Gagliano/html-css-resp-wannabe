@@ -12,6 +12,18 @@
   float: left;
 }
 
+@media screen and (max-width:479px) {
+  
+  #lezioni .row>.left, 
+  #lezioni .row>.right, 
+  #lezioni h1 {
+    width: 100%;
+    margin: 0;
+    background-color: #F2F2CD;
+    font-size: 30px;
+  }
+}
+
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -19,8 +31,30 @@
   margin-left: auto;
 }
 
+@media screen and (max-width:479px) {
+
+  #lezioni .row img {
+    padding-top: 50px;
+  }
+}
+
+
+
+
 #lezioni {
   text-align: center;
+}
+
+
+@media screen and (max-width:479px) {
+
+  #lezioni h1 {
+    font-size: 50px;
+  }
+
+  #lezioni h3 {
+    margin: 0;
+  }
 }
 
 /* BLOCCO STEPS */
@@ -29,6 +63,17 @@
 #steps .row>.right {
   float: left;
   width: 33%;
+}
+
+@media screen and (max-width:479px) {
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  
+  width: 100%;
+  font-size: 30px;
+  }
 }
 
 #steps {
