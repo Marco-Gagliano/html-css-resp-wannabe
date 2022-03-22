@@ -97,8 +97,80 @@ img {
 }
 
 
-/* RESPONSIVE MOBILE FIRST */
+/* RESPONSIVE TABLET FIRST */
 
+@media screen and (min-width: 420px) and (max-width: 768px) {
+
+  .row {
+    margin-top: 0;
+  }
+
+  #lezioni .row>.left, 
+  #lezioni .row>.right {
+    width: 100%;
+    margin: 0;
+    font-size: 26px;
+    padding-bottom: 20px;
+  }
+
+  #lezioni .row img {
+    padding-top: 30px;
+  }
+
+  #lezioni .row, #why .row {
+    background-color: #F2F2CD;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
+
+  #steps .row {
+    background-color: #FFFFFF;
+  }
+
+  #lezioni h1, #steps h1, #why h1 {
+    padding-top: 30px;
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  #lezioni h3, #steps h3, #why h3 {
+    margin: 0;
+  }
+  
+  #why hr {
+    margin: 0 25px;
+    background-color: #5A5A5A;
+  }
+  
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin: 0;
+    font-size: 26px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+  #why .row img {
+    padding-top: 20px;
+  }
+  
+  img {
+    padding-top: 30px;
+  }
+
+}
+
+/* /RESPONSIVE TABLET FIRST */
+
+
+/* RESPONSIVE MOBILE FIRST */
 
 @media screen and (max-width:419px) {
   
@@ -107,8 +179,7 @@ img {
   }
 
   #lezioni .row>.left, 
-  #lezioni .row>.right, 
-  #lezioni h1 {
+  #lezioni .row>.right {
     width: 100%;
     margin: 0;
     font-size: 28px;
@@ -123,13 +194,11 @@ img {
     background-color: #F2F2CD;
   }
 
-
   #steps .row>.left,
   #steps .row>.central,
-  #steps .row>.right,
-  #steps h1 {
+  #steps .row>.right {
     width: 100%;
-    font-size: 28px;
+    font-size: 32px;
     padding-bottom: 10px;
   }
 
@@ -137,13 +206,9 @@ img {
     background-color: #FFFFFF;
   }
 
-  img {
-    padding-top: 30px;
-  }
-
   #lezioni h1, #steps h1, #why h1 {
     padding-top: 30px;
-    font-size: 50px;
+    font-size: 60px;
     margin: 0;
   }
 
@@ -154,14 +219,13 @@ img {
   #why hr {
     margin: 0 25px;
     background-color: #5A5A5A;
-    
   }
 
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
     margin: 0;
-    font-size: 28px;
+    font-size: 32px;
     padding-top: 40px;
     padding-bottom: 20px;
   }
@@ -169,6 +233,12 @@ img {
   #why .row img {
     padding-top: 20px;
   }
+
+  img {
+    padding-top: 30px;
+  }
 }
+
+/* /RESPONSIVE MOBILE FIRST */
 
 
